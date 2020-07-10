@@ -184,12 +184,11 @@ margin: 30px 0 0;
 .footer-links{
   color: #596e79;
 }
-
+/* MEDIA QUERY */
 @media screen and (max-width:1024px){
 
 .intro{
-  width: 60%;
-  text-align: center;
+  width: 65%;
 }
 .cloud-one{
   position: absolute;
