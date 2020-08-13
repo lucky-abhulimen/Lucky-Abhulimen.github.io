@@ -5,6 +5,7 @@ body{
   font-family: 'Montserrat', serif;
 
 }
+
 h1{
   color: #66BFBF;
 margin: 50px auto 0 auto;
@@ -46,6 +47,21 @@ navbar-anchor{
 
   transition: background-color .5s., color .5s, border-radius 2s ease-out;
 }
+#navbar{
+  overflow: hidden;
+  background-color:#66BFBF;
+  color: red;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+}
+#navbar a{
+  color:#fff;
+}
+.semi-main{
+  margin-top: 10%;
+}
 .navbar-anchor:hover{
   background-color: #127681;
   color:#fff;
@@ -64,6 +80,7 @@ navbar-anchor{
 
 background-color: #EAF6F6;
 padding-bottom: 100px;
+padding-top: 20px;
 }
 
 .logo-image{
@@ -77,7 +94,7 @@ border-radius: 100%;
   height: 40px;
   position: absolute;
   right: 300px;
-  top: 130px;
+  top: 160px;
 border-radius: 50%;
 
 }
@@ -192,13 +209,15 @@ margin: 30px 0 0;
   width: 65%;
 }
 .cloud-one{
+  width: 70px;
+  height: 30px;
   position: absolute;
-  right: 30px;
-  top: 100px;
+  right: 5px;
+  top: 115px;
 }
 .cloud-two{
   position: absolute;
-  left: 10px;
+ left:10px;
   bottom: 170px;
 }
 .skill-row{
@@ -216,6 +235,8 @@ margin: 30px 0 0;
 .ddd{
   display: flex;
   justify-content: center;
+  width: 600px;
+
 }
 .anchor{
    display: flex;
@@ -234,6 +255,9 @@ h1{
 .contact-message{
   text-align: left;
   width: 60%;
+}
+.semi-main{
+  margin-top: 28%;
 }
 
 }
