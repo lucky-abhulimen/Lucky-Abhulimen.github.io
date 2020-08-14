@@ -259,5 +259,14 @@ h1{
 .semi-main{
   margin-top: 28%;
 }
+#navbar{
+  overflow: hidden;
+  background-color:#66BFBF;
+  color: red;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 1;
+}
 
 }
