@@ -220,8 +220,7 @@ margin: 30px 0 0;
   position: absolute;
  left:10px;
   bottom: 170px;
-  scroll-padding-left: 10px;
-}
+  }
 .skill-row{
   width: 80%;
   display: flex;
@@ -229,6 +228,7 @@ margin: 30px 0 0;
   justify-content: center;
   align-items: center;
 }
+
 .skill-row p{
   width: 65%;
   text-align: left;
@@ -239,6 +239,12 @@ margin: 30px 0 0;
   justify-content: center;
   width: 270px;
 
+}
+.design-image{
+  width: 30%;
+}
+.develop-image{
+  width: 30%;
 }
 .anchor{
    display: flex;
